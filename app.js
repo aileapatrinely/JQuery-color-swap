@@ -1,10 +1,15 @@
 $(document).ready(onReady);
 
+let clickCount = 0;
+
 function onReady() {
   $('.js-generate-btn').on('click', appendDiv);
 }
 
 function appendDiv() {
-  $('#allthedivs').append(`<div></div>`);
-  console.log('divs');
+  clickCount++;
+
+  $('#allthedivs').append(`<div>
+  <p>${clickCount}</p>
+  </div>`);
 }
