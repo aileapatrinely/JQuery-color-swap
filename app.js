@@ -5,5 +5,6 @@ function onReady() {
 }
 
 function appendDiv() {
-  console.log('yeah');
+  $('#allthedivs').append(`<div></div>`);
+  console.log('divs');
 }
