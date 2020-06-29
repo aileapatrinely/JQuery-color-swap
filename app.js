@@ -10,6 +10,6 @@ function appendDiv() {
   clickCount++;
 
   $('#allthedivs').append(`<div>
-  <p>${clickCount}</p><button class="yellow">Yellow</button><button class="delete-da-btn">Delete</button>
+  <p>${clickCount}</p><button class="yellow-btn">Yellow</button><button class="delete-da-btn">Delete</button>
   </div>`);
 }
